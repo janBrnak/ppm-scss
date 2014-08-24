@@ -1,0 +1,21 @@
+.btn {
+	margin: 0;
+	padding: 0;
+	@include border-radius(10px);
+}
+
+.btn-success {
+	@extend .btn;
+	background-color: $btn-bg-success;
+}
+
+.btn-warrning {
+	@extend .btn;
+	background-color: $btn-bg-warrning;
+	padding: 10px;
+}
+
+.btn-error {
+	@extend .btn;
+	background-color: $btn-bg-error;
+}
